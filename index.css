@@ -8,3 +8,9 @@ body {
   width: 100%;
   font-family: 'inter', sans-serif;
 }
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
