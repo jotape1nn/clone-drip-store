@@ -1,0 +1,92 @@
+#footer{
+  width: 100%;
+  background-color: #1f1f1f;
+
+
+  
+}
+#footer .box-footer{
+
+  width: 90rem;
+  height: 28.375rem;
+  margin: 0 auto;
+  display: flex;
+  
+}
+
+.box-logo {
+
+  width: 15.813rem;
+  height: 2.75rem;
+  margin: 0 0 0 0;
+}
+
+ .box-logo-texto {
+
+  width: 19.188rem;
+  height: 4.875rem; 
+  margin: 2.1875rem 0 0 0;
+  
+}
+
+.box-logo-texto-cor {
+  color: white;
+  font-size: 1.01rem;
+}
+
+.div-logo-icons {
+
+  width: 7.7575rem;
+  height: 1.283125rem;
+  margin: 2.5rem 0 0 0;
+}
+
+.div-logo-icons {
+
+  display: flex;
+  gap: 2.2rem;
+}
+
+.box-logo-pai {
+  
+  margin: 4.5rem 0 0 6.5rem;
+  width: 19.1875rem;
+  height: 13.625rem;
+}
+
+.box-info-pai {
+ 
+ width: 8.4375rem;
+ height: 17.375rem;
+ margin: 4.5rem 0 0 12.8125rem;
+ display: flex;
+ flex-direction: column;
+ color: #f5f5f5;
+}
+
+.box-categoria-pai {
+
+  width: 6rem;
+  height: 15rem;
+  margin: 4.5rem 0 0 6.375rem;
+  color: #f5f5f5;
+}
+
+.box-contato-pai {
+
+  width: 14.5625rem;
+  height: 10.5rem;
+  margin: 4.5rem 0 0 10.5rem;
+  color: #f5f5f5;
+}
+.barra {
+
+}
+
+.barra hr {
+ color: #f5f5f5;  
+}
+
+
+
+          

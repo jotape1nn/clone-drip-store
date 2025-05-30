@@ -1,14 +1,17 @@
-export const Useful =  ({margin, color,href, textDecoratin, value}) => {
+import { Link } from 'react-router-dom';
+
+
+export const Useful =  ({margin, color,href, textDecoratin, value, target, to}) => {
   return(
     <p style={{margin: margin}}>
-      <a 
+      <Link 
       style={{
         color: color,
         textDecoration: textDecoratin
       }}
-      href={href}
-      target="_blanck"
-      >{value}</a>
+      to={to}
+      target={target}
+      >{value}</Link>
     </p>
   );
 } 

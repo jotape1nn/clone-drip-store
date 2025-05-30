@@ -1,6 +1,7 @@
 import { Button } from '../Button/Button'
 import { Input } from '../Input/Input.jsx'
 import { Logo } from '../Logo/Logo'
+import { Nav } from '../Nav/Nav.jsx'
 import { ShopCart } from '../ShopCart/ShopCart.jsx'
 import { Useful } from '../Useful/Useful.jsx'
 
@@ -32,6 +33,44 @@ export const Header = () => {
           href={'#'}
           textDecoratin={'underline'}
           />
+          <Nav 
+          position={'absolute'}
+          top={'8.375rem'}
+          gap={'2rem'}
+          width={'26.438rem'}
+          height={'11.813rem'}
+          > 
+            <li>
+              <Useful
+               value={'inicio'}
+               color={'#666666'}
+               to={'/'}
+               />
+            </li>
+          <li>
+              <Useful
+               value={'produtos'}
+               color={'#666666'}
+               to={'/produtos'}
+               />
+            </li>
+            
+            <li>
+              <Useful
+               value={'meus pedidos'}
+               color={'#666666'}
+               to={'/pedidos'}
+               />
+            </li>
+            
+            <li>
+              <Useful
+               value={'ofertas'}
+               color={'#666666'}
+               to={'/ofertas'}
+               />
+            </li>   
+             </Nav>
         </div>
         <Button
           width={'7.125rem'}
